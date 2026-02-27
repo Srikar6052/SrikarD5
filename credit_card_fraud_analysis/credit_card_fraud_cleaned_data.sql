@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -- ─────────────────────────────────────────
 -- DATABASE SETUP
 -- ─────────────────────────────────────────
@@ -221,6 +222,9 @@ SELECT COUNT(*) FROM cc_transactions;
 SHOW TABLES;
 use fraud_db;
 SELECT * FROM cc_transactions;-- ─────────────────────────────────────────
+=======
+-- ─────────────────────────────────────────
+>>>>>>> 35241ea6f25d9726dcded332d26b6c51239da0ff
 -- DATABASE SETUP
 -- ─────────────────────────────────────────
 CREATE DATABASE fraud_db;
@@ -442,6 +446,7 @@ SET risk_score =
 SELECT COUNT(*) FROM cc_transactions;
 SHOW TABLES;
 use fraud_db;
+<<<<<<< HEAD
 SELECT * FROM cc_transactions;CREATE DATABASE DRIVEDB;
 USE DRIVEDB;
 CREATE TABLE DRIVE(
@@ -1310,3 +1315,6 @@ ON e.dept_id = d.dept_id;
 
 
 
+=======
+SELECT * FROM cc_transactions;
+>>>>>>> 35241ea6f25d9726dcded332d26b6c51239da0ff
